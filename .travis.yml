@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: kO8EHqEzjZadE8eIOLPtY0L24KYcio+gQIWMho0LDVd519l14AjaDLS1jzHEHdTItQlmyTlgSNm+EG5YNfxxxI9Vx9uyKcp5fpswJaRGPW3rCRGGpwt9cP8yLcew47RyElgnKOmix1+8QPjxBqM/FW5beQya91UAgyFf85pVTg9UTvX67rWafSmQZVsKw3zjfH98PItdxU2JJvHgD5ujVb3MZwzwddtVzPMrfAhK854SM/YmBezJ+zFSVhExAMhW0RfMBp6bixaNL2u5SpDgjXhW9lJzu1D3KCzbcNi/qhZOYGeEsnMTvFKgUQantAol6yqZxJuPeK6cHmHm9sH/J7mgVqg1qY9Jq2rkdV98z9LjY1ASnp5j2Ejg3vH6ylXoC13OSWgUKHsK79sThNYa/fFgzu6ib1hyPSXP9fYsiFptRO0IA60mJIJGTqv77uiBzJyaesSAZQgQyqU995YiiS+lQReMccf66Ejt1zX1KHQTjPpcWfdVLe9hRfxdiEm1MzDMi9Hdhvm0HH6JifthbaYBb9ANRjzZNrRPFpnZQQ++xz0ewAXE81XaLFa5y245DTvtrSfI7yaJopwOOlTXf6C1+5Io6+xpc47b/s6My35KkjIliMuw8zV7nJYjUO9NONnt/wbq8zPXweadwtaqhN2bIJl1DxveGp9DR8+Xsjg=
-  app: JavaScript-App
+  app: make-up-products
   on:
     repo: rashi-sahu/JavaScript-App
   skip_cleanup: 'true'
