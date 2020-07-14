@@ -9,4 +9,4 @@ deploy:
   provider: heroku
   app: make-up-products
   on:
-    repo: ashi-sahu/JavaScript-App
+    repo: rashi-sahu/JavaScript-App
