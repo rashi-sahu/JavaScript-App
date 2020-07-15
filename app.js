@@ -19,14 +19,18 @@ var getUniqueBrandNames = function (body) {
 app.get("/ping", (req, res) => res.send({ message: "pong" }));
 app.get("/pong", (req, res) => res.send({ message: "ping" }));
 
-app.get(
-  "/brands",
-  (req, res) => {
-    request(url, function (error, response, body) {
-      res.send(getUniqueBrandNames(body));
-    });
-  }
-);
+app.get("/brands", (req, res) => {
+  request(url, function (error, response, body) {
+    res.send(getUniqueBrandNames(body));
+  });
+});
+
+app.get("/products", (req, res) => {
+  var brandUrl = url + "?brand=" + req.query.brand;
+  request(brandUrl, function (error, response, body) {
+    res.send(JSON.parse(body));
+  });
+});
 
 app.listen(process.env.PORT || 3000, () =>
   console.log(
